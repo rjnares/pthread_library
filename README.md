@@ -8,17 +8,17 @@ This library can be integrated into any program that uses pthreads by following 
 
 Currently, this library supports:
   1. Thread synchornization functions such as:
-  * pthread_create()
-  * pthread_exit()
-  * pthread_self()
-  * pthread_join()
+    * pthread_create()
+    * pthread_exit()
+    * pthread_self()
+    * pthread_join()
 
   2. Mutex functions:
-  * lock()
-  * unlock()
+    * lock()
+    * unlock()
 
   3. Semaphore functions:
-  * sem_init()
-  * sem_destroy()
-  * sem_wait()
-  * sem_post()
+    * sem_init()
+    * sem_destroy()
+    * sem_wait()
+    * sem_post()
